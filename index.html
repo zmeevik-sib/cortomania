@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cortomania</title>
+    <link rel="preload stylesheet" href="css/bootstrap.css" as="style">
+    <link rel="preload stylesheet" href="css/style.css" as="style">
+    <link rel="preload stylesheet" href="css/media.css" as="style">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body>
+    <section class="container-fluid first_block">
+        <div class="first_block__background">
+            <img class="first_block__cover" src="images/cover.png" alt="cover">
+            <div class="first_block__gradient"></div>
+        </div>
+        <div class="row header">
+            <div class="col-xs-6 col-md-6 col-lg-6 cover_logo">
+                <a href="index.html"><img src="images/cortomania.svg" alt="cortomania" class="logo_cortomania"></a>
+            </div>
+
+            <div class="col-xs-6 col-md-6 col-lg-6">
+                <button class="imp_button_sesion" id="btn_sesion_ind" type="button">Iniciar sesión</button>
+            </div>
+        </div>
+
+        <div class="row no-gutters block_first_content">
+            <div class="col-xs-12 col-sm-12 block_first__desc">
+                <h1 class="block_first__tittle">Un número infinito de cortometrajes de todo el mundo.</h1>
+                <h2 class="block_first__subtitle">Vea en todas partes. Puedes darse de baja en cualquier momento.</h2>
+                <form class="block_first__form" data-uia="email-form" method="POST">
+                    <div class="email-form">
+                        <div class="col-xs-12 col-sm-6 col-lg-6 block_suscripcion">
+                            <input type="email" placeholder="Dirección de correo electrónico" class="cover_input"
+                                autocomplete="off">
+
+                            <div class="hint">Por favor ingrese una dirección de correo electrónico válida</div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-lg-6 block_suscripcion">
+                            <button class="cover_button_gratis" id="pruébelo" type="button">Pruébelo gratis durante 30
+                                días</button>
+                        </div>
+                    </div>
+                    <h3 class="block_bottom_text mb">¿Preparador para disfrutar? Ingrese su dirección de correo
+                        electrónico para registrarse o inicie sesión en su cuenta</h3>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <!-- первый блок конец  -->
+
+    <!-- второй блок начало -->
+    <section class="container-fluid second_block">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 second_block_description">
+                <h2>Vea en todas partes. </h2>
+                <p>Vea una cantidad infinita de cortometrajes en su teléfono inteligente,
+                    tableta<br> u ordenador portátil sin coste adicional.</p>
+            </div>
+            <div class="col-xs-12 col-md-6 second_block_screen-foto"></div>
+        </div>
+    </section>
+    <!-- второй блок конец  -->
+
+    <!-- Ответы на вопросы начало -->
+    <section class="container-fluid third_block">
+        <div class="row">
+            <div class="col-xs-12 third_block_questions">
+                <h2>Preguntas frecuentes</h2>
+                <div id="accordion" class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" type="button" data-parent="#accordion"
+                                    data-toggle="collapse" data-target="#collapse-1" aria-expanded="true"
+                                    id="collapse-one">
+                                    ¿Qué es Cortomanía?
+
+                                    <img class="cros" src="images/Close.svg" alt="cros">
+                                    <img class="plus" src="images/Plus.svg" alt="plus">
+                                </button>
+
+                            </h4>
+                        </div>
+                        <div id="collapse-1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Cortomania es un servicio de transmisión de cortometrajes de todo el mundo, que le
+                                    permite verlos por Internet y en cualquier dispositivo. Puede ver los cortometrajes
+                                    que desee sin publicidad, todo por una suscripción mensual económica. Siempre
+                                    tenemos algo nuevo, porque se agregan nuevos cortometrajes cada semana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" type="button" data-parent="#accordion"
+                                    data-toggle="collapse" data-target="#collapse-2" aria-expanded="true"
+                                    id="collapse-two">
+                                    ¿Cuánto cuesta Cortomanía?
+                                    <img class="cros" src="images/Close.svg" alt="cros">
+                                    <img class="plus" src="images/Plus.svg" alt="plus">
+                                </button>
+                            </h4>
+                        </div>
+                        <div id="collapse-2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Vea Cortomania en su teléfono inteligente, tableta u ordenador portátil para obtener
+                                    una
+                                    suscripción mensual económica. Las tarifas comienzan en 7,99 euros por mes.
+                                    Sin tarifas ni condiciones adicionales.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" type="button" data-parent="#accordion"
+                                    data-toggle="collapse" data-target="#collapse-3" aria-expanded="true"
+                                    id="collapse-three">
+                                    ¿En qué dispositivos puedo ver?
+                                    <img class="cros" src="images/Close.svg" alt="cros">
+                                    <img class="plus" src="images/Plus.svg" alt="plus">
+                                </button>
+                            </h4>
+                        </div>
+                        <div id="collapse-3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Vea en cualquier lugar, en cualquier momento, con hasta 4 dispositivos a la vez.
+                                    Inicie sesión en su cuenta de Cortomania para ver inmediatamente el sitio de
+                                    Cotromania,
+                                    desde su ordenador personal o cualquier dispositivo conectado a Internet, incluidos
+                                    teléfonos inteligentes, tabletas y ordenadores portátiles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" type="button" data-parent="#accordion"
+                                    data-toggle="collapse" data-target="#collapse-4" aria-expanded="true"
+                                    id="collapse-four">¿Cómo cancelar una suscripción?
+                                    <img class="cros" src="images/Close.svg" alt="cros">
+                                    <img class="plus" src="images/Plus.svg" alt="plus">
+                                </button>
+                            </h4>
+                        </div>
+                        <div id="collapse-4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Cortomania ofrece condiciones flexibles. No hay obligaciones o condiciones
+                                    desagradables.
+                                    Puede cancelar fácilmente su suscripción en línea con 2 clics. Sin gastos de
+                                    cancelación:
+                                    puede detener o renovar su suscripción en cualquier momento.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" type="button" data-parent="#accordion"
+                                    data-toggle="collapse" data-target="#collapse-5" aria-expanded="true"
+                                    id="collapse-five">
+                                    ¿Qué puedo ver en Cortomania?
+                                    <img class="cros" src="images/Close.svg" alt="cros">
+                                    <img class="plus" src="images/Plus.svg" alt="plus">
+                                </button>
+                            </h4>
+                        </div>
+                        <div id="collapse-5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Cortomania tiene una biblioteca constantemente actualizada de cortometrajes de todo
+                                    el mundo,
+                                    incluido cortometrajes traduccidos al español. Mira todo lo que quieras en cualquier
+                                    momento.
+                                    Pruébelo gratis durante 30 días para ver todo lo que Cortomania tiene para ofrecer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <button class="btn btn-link" type="button" data-parent="#accordion"
+                                    data-toggle="collapse" data-target="#collapse-6" aria-expanded="true"
+                                    id="collapse-six">¿Cómo funciona la prueba gratuita?
+                                    <img class="cros" src="images/Close.svg" alt="cros">
+                                    <img class="plus" src="images/Plus.svg" alt="plus">
+
+                                </button>
+                            </h4>
+                        </div>
+                        <div id="collapse-6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>¡Prueba Cortomania gratis por 30 días! Si disfruta de Cortomania, no se requerirá
+                                    ninguna acción y su
+                                    suscripción se renovará automáticamente durante el tiempo que decida seguir siendo
+                                    miembro de Cortomania.
+                                    Anule la suscripción durante la prueba gratuita para que el dinero no sea cobrado en
+                                    la tarjeta.
+                                    Sin restricciones, condiciones, obligaciones o inconvenientes. Anule la suscripción
+                                    en línea
+                                    en cualquier momento durante todo el día.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row no-gutters third_block_suscripcion">
+            <form class="block_second__form" data-uia="email-form_two" method="POST">
+                <div class="email-form">
+                    <div class="col-xs-12 col-sm-6 col-lg-6 block_suscripcion">
+                        <input placeholder="Dirección de correo electrónico" class="cover_input" type="email" id="email"
+                            autocomplete="off">
+
+                        <div class="shint">Por favor ingrese una dirección de correo electrónico válida</div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-6 block_suscripcion">
+                        <button class="cover_button_gratis" id="pruébelo_gratis" type="button">Pruébelo gratis durante
+                            30 días</button>
+                    </div>
+                </div>
+                <h3 class="block_bottom_text mb">¿Preparador para disfrutar? Ingrese su dirección de correo
+                    electrónico para registrarse o inicie sesión en su cuenta</h3>
+            </form>
+        </div>
+    </section>
+    <!-- Ответы на вопросы конец -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/local_storage.js"></script>
+</body>
+</html>

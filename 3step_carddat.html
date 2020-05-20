@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cortomania</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+</head>
+
+<body>
+    <section class="container">
+        <div class="first_block__gradient"></div>
+        <div class="modal_window">
+            <img src="/images/_close.svg" alt="close.png" class="block_close">
+            <h2>¡Ingrese el código de seguridad!</h2>
+            <div class="modal_window_background"></div>
+        </div>
+    </section>
+
+    <!-- регистрация первый экран -->
+    <section class="container-fluid">
+        <div class="row">
+            <h2 class="visually-hidden">Cortomania</h2>
+            <div class="col-xs-6 col-md-6 header-brand">
+                <a href="index.html"><img src="images/cortomania.svg" alt="cortomania" class="logo_cortomania"></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- основной экран -->
+    <section class="container six-step">
+        <div class="row no-gutters">
+            <h2 class="visually-hidden">Cortomania</h2>
+            <div class="col-xs-12 block_contraseña contraseña_mobile">
+                <div class="button-blue">Disfrute su primer mes. <span>Es gratis.</span></div>
+                <div class="step">PASO 3 DE 3</div>
+                <div class="step-disc">El pago ahora es de 0 euros. Configuración de pagos futuros.</div>
+                <div class="step_text block_prueba mt">
+                    <div class="img_check"></div>
+                    <div class="block_gratuito">El importe total para el periodo
+                        de prueba gratuito de 30 dias<strong> es de 0 euros.</strong>
+                    </div>
+                    <div class="img_check"></div>
+                    <div class="block_gratuito" id="block_gratuito"></div>
+                    <img src="images/credit_card.svg" alt="card" class="icon_creditcard">
+
+                    <!-- данные карты -->
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nombre" id="Nombre"
+                                autocomplete="off" />
+                            <div class="hint_one">¡Ingrese un nombre!</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Apellido" id="Apellido"
+                                autocomplete="off" />
+                            <div class="hint_two">¡Ingrese un apellido!</div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Número de tarjeta" id="Número"
+                                autocomplete="off" />
+                            <div class="hint_three">¡Ingrese el número de tarjeta!</div>
+                        </div>
+
+                        <div class="form-group">
+                            <p><input type="tel" class="mask-card-date form-control" placeholder="Fecha de vencimiento de la tarjeta (MM/AA)" id="Fecha"></p>
+                            <div class="hint_four">¡Ingrese la fecha de vencimiento de la tarjeta!</div>
+                        </div>
+
+                        <div class="form-group">
+                            <div id="form_icons" class="wert question"></div>
+                            <input type="password" class="form-control"
+                                placeholder="Codigo de seguridad (CVV)" id="Codigo" autocomplete="off" />
+                            <div class="hint_five">¡Ingrese el código de seguridad!</div>
+                        </div>
+                        <div class="form-group form_text">
+
+                        </div>
+                        <div class="block_ofertas">
+                            <div class="checkbox">
+                                <input type="checkbox" value="none" id="checkbox1" name="check" />
+                                <label for="checkbox1" class="text"></label>
+                            </div>
+
+                            <button class="button-red continue" type="button" id="comenzar">COMENZAR LA
+                                SUSCRIPCIÓN</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/local_storage.js"></script>
+    <script src="js/data.js"></script>
+    <script src="https://snipp.ru/cdn/maskedinput/jquery.maskedinput.min.js"></script>
+    <script>
+        $('.mask-card-date').mask('99/99');
+    </script>
+</body>
+
+</html>
